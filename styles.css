@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  color:black;
+  /* background-image: url("/bilder/sideboks.jpg");
+  background-size: cover;*/
+  
+}
+h1 {
+  color: white;
+  font-family: arial;
+  background-color: dodgerblue;
+  margin:10 px;
+
+}
+p {
+  color: Black;
+  font-size: 15px;
+  font-family: Arial;
+  /*border: 2px solid rgb(192, 192, 221);*/
+  padding: 10px;
+  margin: 10px;
+}
+
+d {
+      font-size: 18px;
+      line-height: 15px;
+      color: hvite;
+      background-color: dodgerblue;
+}
+img {
+  /*border:2px solid rgb(192, 192, 221);*/
+  padding: 10px;
+  margin:10px;
+  border-radius: 3mm;
+}
+
+/*a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}*/
+
+a:hover, a:active {
+  background-color: red;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /*background-color: #2196F3;*/
+  grid-column-gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgb(227, 236, 241);
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  background-color: dodgerblue;
+  padding: 5px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(72, 134, 196);
+  font-size: 17px;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.footer p {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+
+}
+.footer {
+  background-color: dodgerblue;
+  padding: 10px;
+  text-align: center;
+  color: #f2f2f2;
+}
